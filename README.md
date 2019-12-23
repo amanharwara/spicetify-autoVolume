@@ -20,7 +20,7 @@ If you're someone who listens to music for long periods of time, I really recomm
     - Linux: `$XDG_CONFIG_HOME/.config/spicetify/Extensions/ or ~/.config/spicetify/Extensions`
     - MacOS: `~/spicetify_data/Extensions`
   - `Extensions` folder in Spicetify executable directory.
-- `spicetify config extensions autoVolume.js` (Adds autoVolume.js to the config)
+- Run command: `spicetify config extensions autoVolume.js` (Adds autoVolume.js to the config)
 - Apply using either of the commands:
   - `spicetify backup apply`
   or
