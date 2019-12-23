@@ -25,3 +25,28 @@ If you're someone who listens to music for long periods of time, I really recomm
   - `spicetify backup apply`
   or
   - `spicetify apply`
+
+## Changing the interval/minimum volume
+
+NOTE: Unfortunately, due to limitations in the Spicetify Player API, it is not possible to decrease the volume by a specific percentage. It always decreases only by 6.25%
+
+### To change the interval
+
+- Open `autoVolume.js` in an editor of your choice.
+- Find the line `const interval = 5;`
+- The interval value is in minutes, so change the '5' to any amount of minutes you want.
+- Save the file.
+- Run the command `spicetify apply` to apply the changes.
+
+### To change the minimum volume
+
+- Open `autoVolume.js` in an editor of your choice.
+- Find the line `const minimumVolume = 50;`
+- The interval value is in percentage, so change the '50' to any percentage of volume that you want.
+- Save the file.
+- Run the command `spicetify apply` to apply the changes.
+
+## Usage
+Toggle "Auto Volume" in the profile menu.
+
+![autoVolume Screenshot](https://github.com/ShadyThGod/spicetify-autoVolume/raw/master/autoVolume-screenshot.png)
