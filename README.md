@@ -48,5 +48,5 @@ Toggle "Auto Volume" in the profile menu.
 
 ![autoVolume Screenshot](https://github.com/ShadyThGod/spicetify-autoVolume/raw/master/autoVolume-screenshot.png)
 
-### While you're at it, make sure to check out the **[Make Listening Safe](http://www.who.int/pbd/deafness/activities/MLS_Brochure_English_lowres_for_web.pdf?ua=1)** campaign by the World Health Organization. It has much more information about the effects of noise and what can you do to ensure you are listening safely.
+### While you're at it, make sure to check out the **[Make Listening Safe](https://www.who.int/pbd/deafness/activities/MLS/en/)** campaign by the World Health Organization. It has much more information about the effects of noise and what can you do to ensure you are listening safely.
 ### Also check out the [Reading Material](https://github.com/ShadyThGod/spicetify-autoVolume/wiki/Reading-Material) section of the wiki for more links related to the subject.
