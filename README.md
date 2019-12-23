@@ -42,7 +42,7 @@ NOTE: Unfortunately, due to limitations in the Spicetify Player API, it is not p
 
 - Open `autoVolume.js` in an editor of your choice.
 - Find the line `const minimumVolume = 50;`
-- The interval value is in percentage, so change the '50' to any percentage of volume that you want.
+- The minimum volume value is in percentage, so change the '50' to any percentage of volume that you want.
 - Save the file.
 - Run the command `spicetify apply` to apply the changes.
 
