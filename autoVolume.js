@@ -3,6 +3,8 @@
 // DESCRIPTION: Auto-adjusts volume during long listening sessions so your ears don't start to hurt
 
 (function autoVolume() {
+    // By how many percents to decrease the volume (default: 5)
+    const DecreaseBy = 5;
     // Checks if Spicetify's local storage is available; closes and restarts the function if not.
     if (!Spicetify.LocalStorage) {
         setTimeout(autoVolume, 1000);
@@ -38,11 +40,9 @@
     function getVol() {
         return (Spicetify.Player.getVolume()) * 100;
     }
-
-    // Decreases volume by 6.25%
-    // Unfortunately, there seems to be no way in spicetify currently to change the percentage by which to decrease the volume
+    
     function decVol() {
-        Spicetify.Player.decreaseVolume();
+        Spicetify.Player.setVolume((getVol()-DecreaseBy)/100);
     }
 
     // Volume Change Interval
