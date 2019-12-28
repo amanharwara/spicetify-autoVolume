@@ -2,7 +2,7 @@
 Extension for spicetify-cli which automatically decreases volume at specific intervals of time.
 
 ### Why?
-I've made this extension for people who listen to music for long periods of time and care about their ears. This extension, when enabled using the toggle in the menu, automatically decreases the volume by 6.25% at specific intervals of time until the volume reaches a specified minimum percentage. This way, you can listen to music for long time and making sure you're not hurting your ears much.
+I've made this extension for people who listen to music for long periods of time and care about their ears. This extension, when enabled using the toggle in the menu, automatically decreases the volume by a specific percentage at specific intervals of time until the volume reaches a specified minimum percentage. This way, you can listen to music for long time and making sure you're not hurting your ears much.
 
 If you're someone who listens to music for long periods of time, I really recommend this. Your hearing matters!
 
@@ -25,7 +25,12 @@ If you're someone who listens to music for long periods of time, I really recomm
 
 ## Changing the interval/minimum volume
 
-NOTE: Unfortunately, due to limitations in the Spicetify Player API, it is not possible to decrease the volume by a specific percentage. It always decreases only by 6.25%
+### To change the percentage to decrease the volume by
+- Open `autoVolume.js` in an editor of your choice.
+- Find the line `const DecreaseBy = 5;`
+- The value is in percentages, so change the '5' to any percentage you want.
+- Save the file.
+- Run the command `spicetify apply` to apply the changes.
 
 ### To change the interval
 
