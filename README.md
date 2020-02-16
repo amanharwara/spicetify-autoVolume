@@ -10,7 +10,7 @@ If you're someone who listens to music for long periods of time, I really recomm
 - Make sure you have installed spicetify-cli ([instructions here](https://github.com/khanhas/spicetify-cli/wiki/Installation)) and generated config ([instructions here](https://github.com/khanhas/spicetify-cli/wiki/Basic-Usage))
 
 ## Installation
-- Download [autoVolume.js](https://github.com/ShadyThGod/spicetify-autoVolume/raw/master/autoVolume.js)
+- Download [autoVolume.js](https://github.com/amanharwara/spicetify-autoVolume/raw/master/autoVolume.js)
 - Copy/move the file to any of the following:
   - `Extensions` folder in Home directory:
     - Windows: `%userprofile%\.spicetify\Extensions\`
@@ -51,7 +51,7 @@ If you're someone who listens to music for long periods of time, I really recomm
 ## Usage
 Toggle "Auto Volume" in the profile menu.
 
-![autoVolume Screenshot](https://github.com/ShadyThGod/spicetify-autoVolume/raw/master/autoVolume-screenshot.png)
+![autoVolume Screenshot](https://github.com/amanharwara/spicetify-autoVolume/raw/master/autoVolume-screenshot.png)
 
 ### While you're at it, make sure to check out the **[Make Listening Safe](https://www.who.int/pbd/deafness/activities/MLS/en/)** campaign by the World Health Organization. It has much more information about the effects of noise and what can you do to ensure you are listening safely.
-### Also check out the [Reading Material](https://github.com/ShadyThGod/spicetify-autoVolume/wiki/Reading-Material) section of the wiki for more links related to the subject.
+### Also check out the [Reading Material](https://github.com/amanharwara/spicetify-autoVolume/wiki/Reading-Material) section of the wiki for more links related to the subject.
