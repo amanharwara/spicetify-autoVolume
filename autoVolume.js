@@ -1,5 +1,5 @@
 // NAME: autoVolume
-// AUTHOR: shadythgod
+// AUTHOR: amanharwara
 // DESCRIPTION: Auto-adjusts volume during long listening sessions so your ears don't start to hurt
 
 (function autoVolume() {
@@ -17,9 +17,9 @@
     // Minimum volume percentage. (default: 50)
     const minimumVolume = 50;
 
-    console.info("%cThe autoVolume extension by shadythgod has been loaded.\n" +
+    console.info("%cThe autoVolume extension by amanharwara has been loaded.\n" +
         `When enabled, the volume will automatically be reduced every ${interval} minutes.\n` +
-        "Check out my github: https://github.com/shadythgod", "font-weight: bold; font-style: italic;");
+        "Check out my github: https://github.com/amanharwara", "font-weight: bold; font-style: italic;");
 
     // Boolean value describing if extension is enabled
     let isEnabled = Spicetify.LocalStorage.get("autoVolume") === "1";
